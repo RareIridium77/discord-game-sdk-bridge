@@ -15,7 +15,7 @@ namespace DiscordBridge
         private readonly Channel<WebSocketMessage> messageChannel = Channel.CreateUnbounded<WebSocketMessage>();
         private readonly List<WebSocket> clients = new();
 
-        // Подписка на входящие сообщения
+        // Subcribe Action to received messages
         public event Action<WebSocket, string>? OnMessageReceived;
 
         public WebApp()
