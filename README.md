@@ -12,6 +12,10 @@ A lightweight REST + WebSocket bridge for the [Discord Game SDK](https://discord
 **WIP** and just a for-fun project.  
 I built this while I was bored.
 
+## TODO
+- Add Lua interface
+- And Idk
+
 ---
 
 ## Dependencies
