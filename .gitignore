@@ -1,0 +1,18 @@
+# VS/IDE
+.vs/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+
+# C# Build artifacts
+DiscordBridge/bin/
+DiscordBridge/obj/
+
+# Logs
+*.log
+
+# Binaries
+discord_game_sdk.dll
